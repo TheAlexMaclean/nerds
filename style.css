@@ -466,7 +466,10 @@ p {
     padding-bottom: 110px;
 }
 
-
+.catalog-main {
+    max-width: 1200px;
+    
+}
 
 
 
