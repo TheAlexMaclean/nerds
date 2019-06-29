@@ -468,8 +468,118 @@ p {
 
 .catalog-main {
     max-width: 1200px;
+    margin: 0 auto;
+    margin-top: 60px;
     
 }
+
+aside h3 {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+aside {
+    max-width: 265px;
+    min-height: 785px;
+}
+
+.range-control {
+    background-color: #eee;
+    width: 260px;
+    height: 80px;
+    border-radius: 5px;
+    margin-bottom: 11px;
+    margin-top: 50px;
+    padding: 0 20px;
+    position: relative;
+    
+}
+
+.line {
+    width: 220px;
+    border: 2px solid #d7dcde;
+    position: absolute;
+    top: 40px;
+}
+
+.line-2 {
+    width: 220px;
+    width: 70%;
+    border: 2px solid #00ca74;
+    position: absolute;
+    top: 40px;
+}
+
+
+.filter-btn {
+    position: absolute;
+    top: 30px;
+}
+
+.filter-btn-2 {
+    position: absolute;
+    top: 30px;
+    right: 55px;
+}
+
+.price-control{
+    text-transform: uppercase;
+    white-space: nowrap;
+    
+}
+
+.price-control span {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    margin-left: 30px;
+}
+
+.price-control span:first-child {
+    margin: 0;
+    
+}
+
+.min-value {
+    width: 80px;
+    height: 40px;
+    font-size: 16px;
+    text-align: center;
+    color: #283136;
+    background-color: #eee;
+    border: none;
+    border-radius: 4px;
+}
+
+.max-value {
+    width: 80px;
+    height: 40px;
+    font-size: 16px;
+    text-align: center;
+    color: #283136;
+    background-color: #eee;
+    border: none;
+    border-radius: 4px;
+    
+}
+
+.filter-name {
+    margin-top: 60px;
+}
+
+.grid {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #283136;
+    vertical-align: baseline;
+    text-rendering: auto;
+}
+
+
+
+
 
 
 

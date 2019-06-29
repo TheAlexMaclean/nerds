@@ -29,16 +29,53 @@
    <h1 class="main-title">Магазин готовых шаблонов</h1>
     
   </header>
-   
-   <main class="catalog-main">
-        <ul></ul>
-       
-       <section class="galery">
-          
+  
+  <main class="catalog-main">
+     
+     <aside>
+        <h3 class="bar-title">Стоимость:</h3>
+        <div class="range-control">
+          <div class="line"></div>
+          <div class="line-2"></div>
+          <img class="filter-btn" src="img/filter-button.png" alt="">
+          <img class="filter-btn-2" src="img/filter-button-2.png" alt="">
+        </div>
+        
+        <div class="price-control">
+            <span>От</span>
+            <input class="min-value" type="text" value="0">
+            <span>До</span>
+            <input class="max-value" type="text" value="15000">
+        </div>
+        
+        <h3 class="filter-name">Сетка:</h3>
            
-       </section>
+            <form class="grid" action="#">
+            <p>
+                <input id="radio-btn-1" name="radio-grid" type="radio" checked>
+                <label for="radio-btn-1">Адаптивная</label>
+            </p>
+            
+            
+            <p>
+                <input id="radio-btn-2" name="radio-grid" type="radio">
+                <label for="radio-btn-2">Фиксированая</label>
+            </p>
+            
+            <p>
+                <input id="radio-btn-3" name="radio-grid" type="radio">
+                <label for="radio-btn-3">Резиновая</label>
+                
+            </p>
+            </form>
+            
+         
+     </aside>
+      
+  </main>
+   
        
-   </main>
+   
     
 </body>
 </html>
