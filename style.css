@@ -31,12 +31,10 @@ p {
     background-color: #a6a6a6;
 }
 
-
 .main-header {
     margin: 0;
     padding-top:  35px;
-    background-color: #cccccc;
-    
+    background-color: #cccccc;    
 }
 
 .main-nav {
@@ -47,8 +45,6 @@ p {
     justify-content: space-between; 
     align-items: center;
 }
-
-
 
 .site-nav li {
     display: inline;
@@ -91,7 +87,6 @@ p {
     
 }
 
-
 .intro {
     margin: 0 auto;
     width: 100%;
@@ -103,8 +98,7 @@ p {
     font-weight: 500;
     font-size: 55px;
     line-height: 75px;
-    margin-bottom: 35px;
-    
+    margin-bottom: 35px;   
 }
 
 .intro-tit-2 {
@@ -119,6 +113,7 @@ p {
     top: 0px;
     right: 10px;
 }
+
 
 /* button 
 =============== */
@@ -136,7 +131,6 @@ p {
     cursor: pointer;
 }
 
-
 .button:hover {
     background-color: #e74246;
 }
@@ -146,13 +140,8 @@ p {
 }
 
 
-
 /* features 
 =============== */
-
-.features {
-    
-}
 
 .features ul {
     display: flex;
@@ -204,6 +193,7 @@ p {
     background-color: #eab534;
 }
 
+
 /* info 
 =============== */
 
@@ -224,14 +214,12 @@ p {
     max-width: 660px;
 }
 
-
 .discr-titl {
     margin-top: 80px;
     font-weight: 500;
     font-size: 45px;
     line-height: 55px;
 }
-
 
 .discr-txt {
     margin-top: 35px;
@@ -253,8 +241,7 @@ p {
     width: 25px;
     height: 2px;
     background-color: #fb565a;
-    margin: 0 11px 4px -37px;
-    
+    margin: 0 11px 4px -37px; 
 }
 
 .list-title {
@@ -312,9 +299,9 @@ p {
     margin-left: 0;
 }
 
+
 /* brands 
 =============== */
-
 
 .brands {
     width: 100%;
@@ -329,10 +316,8 @@ p {
 }
 
 .brands a:hover {
-    opacity: .2;
-    
+    opacity: .2; 
 } 
-
 
 .map {
     display: flex;
@@ -385,6 +370,10 @@ p {
     left: 820px;
     
 }
+
+
+/* brands 
+=============== */
 
 .main-footer {
     margin: 0 auto;
@@ -599,8 +588,6 @@ form label {
     display: block;
 }
 
-
-
 .grid input {
     display: none;
 }
@@ -641,17 +628,13 @@ form label {
 }
 
 .checkbox-block input[type="radio"]:checked +label:after {
-    opacity: 1;
-    
+    opacity: 1; 
 }
     
 .filter-name-2 {
     margin-top: 40px;
     margin-bottom: 20px
 }
-
-
-
 
 .checkbox label {
     position: relative;
@@ -673,8 +656,6 @@ form label {
     left: 1px;
     border: 2px solid #a6a6a6;
     border-radius: 2px;
-    
-    
 }
 
 .checkbox label:after {
@@ -689,15 +670,12 @@ form label {
     border-color: #a6a6a6;
     transform: rotate(-45deg);
     opacity: 0;
-    transition: all 0.5s ease;
-    
+    transition: all 0.5s ease; 
 }
   
 .checkbox input[type="checkbox"]:checked +label:after {
     opacity: 1;
-    
 }
-
 
 .checkbox:first-child {
     margin-bottom: 45px;
@@ -722,7 +700,6 @@ form label {
 
 .galery {
     width: 800px;
-    
 }
 
 .sort {
@@ -734,7 +711,6 @@ form label {
     line-height: 30px;
     text-transform: uppercase;
     margin-bottom: 60px;
-    
 }
 
 .sort li:first-child {
@@ -764,13 +740,11 @@ form label {
 .img-galery li {
     margin-bottom: 35px;
     position: relative;
-    
 }
 
 .hdr-img {
     padding-top: 40px;
     position: relative;
-    
 }
 
 .img-galery li:before {
