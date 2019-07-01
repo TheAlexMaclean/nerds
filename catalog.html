@@ -185,7 +185,7 @@
 
 тел. +7 (812) 275-75-75</pre>
             
-            <button class="button cnt-btn" type="button">Напишите нам</button>
+            <button class="button cnt-btn send-form" type="button">Напишите нам</button>
              
          </div>
          <img class="map-marker" width="231" height="190" src="img/map-marker.png" alt="">
@@ -209,6 +209,38 @@
   </div>
     
   </footer>
+     
+     <section class="modal modal-login">
+     <h3 class="modal-name">Напишите нам</h3>
+     
+     <form class="modal-form" action="login.html">
+        <h5>Ваше имя</h5>
+         <input class="form-name" type="text" placeholder="Имя Фамилия">
+         <h5>Ваш e-mail</h5>
+         <input class="form-name" type="text" placeholder="email@example.com">
+         <h5>Текст письма</h5>
+         <input class="form-txt" type="text" placeholder="В свободной форме">
+         <button type="submit" class="button ">Отправить</button>
+         <button type="button" class="modal-close"></button>
+     </form>
+      
+  </section>
+  
+     <script>
+        var link = document.querySelector(".send-form");
+        var popup = document.querySelector(".modal-login");
+        var close = document.querySelector(".modal-close")
+      
+        link.addEventListener("click", function (evt) {
+        evt.preventDefault();
+        popup.classList.add("modal-show");
+        });
+         
+        close.addEventListener("click", function (evt) {
+        evt.preventDefault();
+        popup.classList.remove("modal-show");
+        });   
+    </script>
       
 </body>
 </html>

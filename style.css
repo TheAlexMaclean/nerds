@@ -791,5 +791,60 @@ form label {
 }
 
 
+/* modal 
+=============== */
 
+.modal {
+    width: 860px;
+    height: 490px;
+    border: 1px solid black;
+    padding-left: 100px;
+    padding-top: 50px;
+    padding-left: 85px;
+    padding-bottom: 80px;
+    display: none;
+    position: fixed;
+    top: 100px;
+    left: 455px;
+    background-color: #00ca74;
+    z-index: 999;
+}
 
+.modal-name {
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 45px;
+    margin-bottom: 35px;
+}
+
+.form-name {
+    width: 360px;
+    height: 35px;
+    font-size: 18px;
+    line-height: 25px;
+}
+
+.form-txt {
+    width: 655px;
+    height: 80px;
+    font-size: 18px;
+    line-height: 25px;
+    margin-bottom: 45px;
+}
+
+.modal-close {
+    width: 21px;
+    height: 21px;
+    position: absolute;
+    background-color: #00ca74;
+    background-image: url(img/close-popup.png);
+    top: 75px;
+    right: 50px;
+    border: none;
+    cursor: pointer;
+}
+
+.modal-show {
+    display: block;
+
+}
