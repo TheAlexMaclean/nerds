@@ -133,6 +133,7 @@ p {
     margin-bottom: 80px;
     border: none;
     text-decoration: none;
+    cursor: pointer;
 }
 
 
@@ -473,6 +474,9 @@ p {
     
 }
 
+/* aside 
+=============== */
+
 aside h3 {
     font-weight: 700;
     font-size: 18px;
@@ -481,7 +485,7 @@ aside h3 {
 
 aside {
     max-width: 265px;
-    min-height: 785px;
+    min-height: 900px;
 }
 
 .range-control {
@@ -566,6 +570,10 @@ aside {
 
 .filter-name {
     margin-top: 60px;
+    margin-bottom: 25px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 30px;
 }
 
 .grid {
@@ -575,14 +583,133 @@ aside {
     color: #283136;
     vertical-align: baseline;
     text-rendering: auto;
+    position: relative;
+}
+
+form input,
+form label {
+    display: block;
+}
+
+
+
+.grid input {
+    display: none;
+}
+
+.checkbox-block label {
+    position: relative;
+    padding-left: 45px;
+    padding-bottom: 30px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.checkbox-block label:before {
+    content: "";
+    width: 30px;
+    height: 30px;
+    border: 5px solid #a6a6a6;
+    position: absolute;
+    top: -6px;
+    left: 1px;
+    border-radius: 50%;
+}
+
+.checkbox-block label:after {
+    content: "";
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    top: 4px;
+    left: 11px;
+    border: 2px solid #a6a6a6;
+    border-radius: 50%;
+    background-color: #a6a6a6;
+    opacity: 0;
+    transition: all 0.5s ease;
+    
+}
+
+.checkbox-block input[type="radio"]:checked +label:after {
+    opacity: 1;
+    
+}
+    
+.filter-name-2 {
+    margin-top: 40px;
+    margin-bottom: 20px
 }
 
 
 
 
+.checkbox label {
+    position: relative;
+    padding-left: 45px;
+    padding-bottom: 30px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+}
 
 
+.checkbox label:before {
+    content: "";
+    width: 25px;
+    height: 25px;
+    border: 3px solid #a6a6a6;
+    position: absolute;
+    top: -2px;
+    left: 1px;
+    border: 2px solid #a6a6a6;
+    border-radius: 2px;
+    
+    
+}
+
+.checkbox label:after {
+    content: "";
+    width: 25px;
+    height: 15px;
+    position: absolute;
+    top: -2px;
+    left: 7px;
+    border-left: 4px solid;
+    border-bottom: 4px solid;
+    border-color: #a6a6a6;
+    transform: rotate(-45deg);
+    opacity: 0;
+    transition: all 0.5s ease;
+    
+}
+  
+.checkbox input[type="checkbox"]:checked +label:after {
+    opacity: 1;
+    
+}
 
 
+.checkbox:first-child {
+    margin-bottom: 45px;
+}
 
+.form-btn {
+    width: 265px;
+    height: 50px;
+    margin-bottom: 25px;
+    display: block;
+    text-align: center;
+    background-color: #eee;
+    color: #000;
+}
+
+.form-btn:hover {
+    background-color: #dfdfdf;
+}
+
+.galery {
+    display: block;
+}
 
