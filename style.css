@@ -806,8 +806,9 @@ form label {
     position: fixed;
     top: 100px;
     left: 455px;
-    background: url(img/bgc-modal.jpg);
+    background-color: #edeae7;
     z-index: 999;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
 }
 
 .modal-name {
@@ -836,7 +837,7 @@ form label {
     width: 21px;
     height: 21px;
     position: absolute;
-    background-color: #9d4e15;
+    background-color: #edeae7;
     background-image: url(img/close-popup.png);
     top: 75px;
     right: 50px;
